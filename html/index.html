@@ -10,37 +10,48 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/index.css" />
     <title>Food Shop</title>
   </head>
   <body>
     <header>
-        <nav class="nav_bar">
-            <a href="#" class="logo">webfood</a>
-            <ul>
-                <li><a class="nav_list" href="#">Browse Meals</a></li>
-                <li><a class="nav_list" href="#">My Orders</a></li>
-            </ul>
-        </nav>
+      <a href="#" class="logo">webfood</a>
+      <nav class="nav_bar">
+        <ul>
+          <li><a class="nav_list" href="#">Browse Meals</a></li>
+          <li><a class="nav_list" href="#">My Orders</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-        <h1>Browse Our Delicious Meals</h1>
-        <ul>
-            <li>
+      <h1>Browse Our Delicious Meals</h1>
+      <section id="latest_product">
+            <ul class="main_list">
+              <li class="main_item">
                 <article>
-                    <img src="" alt="">
-                    <p>Risotto with Tiger Prawns</p>
-                    <a href="#">Add to Cart</a>
-                </article></li>
-            <li>
+                  <img src="/img/risotto.jpg" alt="risotto image" loading="lazy" />
+                  <div class="food_item_content">
+                      <p>Risotto with Tiger Prawns</p>
+                      <a href="#">Add to Cart</a>
+                  </div>
+                </article>
+              </li>
+              <li class="main_item">
                 <article>
-                    <img src="" alt="">
+                  <img
+                    src="/img/cheeseburgers.jpg"
+                    alt="cheeseburgers image"
+                    loading="lazy"
+                  />
+                  <div class="food_item_content">
                     <p>Cheeseburgers</p>
                     <a href="#">Add to Cart</a>
+                  </div>
                 </article>
-            </li>
-        </ul>
+              </li>
+            </ul>
+      </section>
     </main>
 
     <footer></footer>
